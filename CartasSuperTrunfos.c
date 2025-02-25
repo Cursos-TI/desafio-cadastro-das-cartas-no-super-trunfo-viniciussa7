@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-// Desafio SUPER TRUNFO
-// Cadsto de cartas
-// Codigo inicial para cadastramento de cartas de cidades
+    // Desafio SUPER TRUNFO
+    // Cadsto de cartas
+    // Codigo inicial para cadastramento de cartas de cidades
 
 int main (){
     // simplificar:Defina as ordens das variaveis com espaço para umma melhor visualização.
@@ -16,13 +16,34 @@ int main (){
 
     printf("SUPER TRUFO!\n");
 
-    char cidade[30]
-    char codigo da carta[20]
-    char nome da cidade [30]
-    int população
-    float área em km²
-    float PIB
-    int numero de pontos turisticos
+    char Estado[30];
+    char codigo da carta[20];
+    char nome a cidade [30];
+    int população;
+    float área em km²;
+    float PIB;
+    int numero de pontos turisticos;
+
+    //sintaxe do scanf
+    
+        printf("Estado:\n") ;
+        scanf("%s",Estado);
+        printf("Codigo da carta:\n") ;
+        scanf("%d",&Codigo da carta);
+        printf("Nome da cidade:\n") ;
+        scanf("%s",Nome da cidade);
+        printf("População:\n") ;
+        scanf("%d",&População);
+        printf("Área em km²:\n") ;
+        scanf("%f",&Área em km²);
+        printf("PIB:\n") ;
+        scanf("%f",&PIB);
+        printf("Numero de pontos turisticos:\n") ;
+        scanf("%d",&Numero de pontos turisticos);
+
+
+
+
 
     
 
