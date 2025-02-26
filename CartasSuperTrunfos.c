@@ -1,7 +1,7 @@
 #include <stdio.h>
 
     // Desafio SUPER TRUNFO
-    // Cadsto de cartas
+    // Cadatramento de cartas
     // Codigo inicial para cadastramento de cartas de cidades
 
 int main (){
@@ -17,42 +17,34 @@ int main (){
     printf("SUPER TRUFO!\n");
 
     char Estado[30];
-    char codigo da carta[20];
-    char nome a cidade [30];
-    int população;
-    float área em km²;
+    char codigodacarta[20];
+    char nomecidade[30];
+    int populacao;
+    float areakm;
     float PIB;
-    int numero de pontos turisticos;
+    int numerodepontosturisticos;
 
-    //sintaxe do scanf
+        //sintaxe do scanf
     
-        printf("Estado:\n") ;
-        scanf("%s",Estado);
-        printf("Codigo da carta:\n") ;
-        scanf("%d",&Codigo da carta);
-        printf("Nome da cidade:\n") ;
-        scanf("%s",Nome da cidade);
-        printf("População:\n") ;
-        scanf("%d",&População);
-        printf("Área em km²:\n") ;
-        scanf("%f",&Área em km²);
-        printf("PIB:\n") ;
+        printf("Estado: ");
+        scanf("%c",&Estado);
+        printf("Codigo da carta: ");
+        scanf("%d",&codigodacarta);
+        printf("Nome da cidade: ");
+        scanf("%s",&nomecidade);
+        printf("População: ");
+        scanf("%d",&populacao);
+        printf("Area em km² : ");
+        scanf("%f",&areakm);
+        printf("PIB: ");
         scanf("%f",&PIB);
-        printf("Numero de pontos turisticos:\n") ;
-        scanf("%d",&Numero de pontos turisticos);
+        printf("Numero de Pontos Turisticos: ");
+        scanf("%d",&numerodepontosturisticos );
 
 
 
 
-
-    
-
-
-
-
-
-
-
+return 0;
 
 
 
